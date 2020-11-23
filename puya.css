@@ -1,0 +1,123 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.calc-container div {
+    font-size: 40px;
+    width: 100px;
+    padding: 10px;
+}
+
+.calc-number,
+.calc-operator,
+.calc-equal {
+    margin-top: 20px;
+}
+
+.final-message {
+    padding: 20px;
+    background-color: yellow;
+    color: darkred;
+    margin-bottom: 20px;
+    border: 1px solid darkred;
+    font-weight: bold;
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.try-again-button {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.calc-container .calc-result  input {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.calc-container .calc-result {
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures .result-image {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightskyblue;
+    border: solid 1px black;
+}
+
+.open {
+    background-image: none !important;
+}
+
+.monster1 {
+    background-image: url(./assets/img/monster1.jpg);
+}
+
+.monster2 {
+    background-image: url(./assets/img/monster2.jpg);
+}
+
+.monster3 {
+    background-image: url(./assets/img/monster3.jpg);
+}
+
+.monster4 {
+    background-image: url(./assets/img/monster4.jpg);
+}
+
+.monster5 {
+    background-image: url(./assets/img/monster5.jpg);
+}
+
+.monster6 {
+    background-image: url(./assets/img/monster6.jpg);
+}
+
+.monster7 {
+    background-image: url(./assets/img/monster7.jpg);
+}
+
+.monster8 {
+    background-image: url(./assets/img/monster8.jpg);
+}
+
+.monster9 {
+    background-image: url(./assets/img/monster9.jpg);
+}
+
+.monster10 {
+    background-image: url(./assets/img/monster10.jpg);
+}
+
+.gaggi {
+    background-image: url(./assets/img/gaggi.jpg);
+}
+
+.check-result-button {
+    font-size: 20px;
+    padding: 20px;
+}
